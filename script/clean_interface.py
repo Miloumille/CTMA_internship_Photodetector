@@ -90,7 +90,7 @@ under_rect_layout = [[
     ]]
 
 layout = [
-    [sg.Button("Grid", size=(43, 1.5), button_color=("white", "navy")), sg.Button("Plaques", size=(43, 1.5), button_color=("white", "navy"))],
+    [sg.Button("Grid", size=(43, 2), button_color=("white", "navy")), sg.Button("Plaques", size=(43, 2), button_color=("white", "navy"))],
     [sg.Column(grid_layout + under_grid_layout, key="-GRID-", pad=(15, 15), visible=False),
      sg.Image(filename='', key='-CAMERA-', visible=False, size=(500, 350),pad=(60,10)),
      sg.Column(rectangles_layout + under_rect_layout, key="-RECTANGLE_PAGE-", pad=(10, 15), visible=False)],
