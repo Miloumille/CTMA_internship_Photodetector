@@ -6,9 +6,9 @@ from functions import crop_image,get_green,get_stat_results,get_json,build_log
 
 ROW_LABELS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 COLUMN_NUMBERS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
-MAX_TEXT_LENGTH = 3
-BUTTON_WIDTH = 3
-BUTTON_HEIGHT = 1.2
+MAX_TEXT_LENGTH = 1
+BUTTON_WIDTH = 5
+BUTTON_HEIGHT = 1
 GRID_ROWS = len(ROW_LABELS)
 GRID_COLS = len(COLUMN_NUMBERS)
 num_rectangles = 12
@@ -28,7 +28,7 @@ grid_layout = [
             pad_text(f"{ROW_LABELS[row]}{COLUMN_NUMBERS[col]}", MAX_TEXT_LENGTH),
             size=(BUTTON_WIDTH, BUTTON_HEIGHT),
             pad=(0, 0),
-            font=("Arial", 10),
+            font=("Arial", 16),
             key=f"CELL-{row}-{col}",
             button_color=("black", "lightgray")
         )
@@ -80,9 +80,7 @@ def draw_rectangles():
             'comment': ""
         })
 
-under_grid_layout = [[sg.Button("Select ctrl -", size=(42, 1), pad=(20, 2), key="SELECT_BLANKS", button_color=("white", "navy")), sg.Button("Select ctrl +", size=(42, 1), pad=(20, 2), key="SELECT_POS", button_color=("white", "navy"))],
-                     [sg.Button("Start", size=(42, 1), pad=(175, 2), key="START", button_color=("white", "navy"))]
-                     ]
+under_grid_layout = [[sg.Button("Select ctrl -", size=(20, 2), pad=(25, 5), key="SELECT_BLANKS", button_color=("white", "navy")),sg.Button("Start", size=(20, 2), pad=(25, 5), key="START", button_color=("white", "navy")), sg.Button("Select ctrl +", size=(20, 2), pad=(25, 5), key="SELECT_POS", button_color=("white", "navy"))]]
 
 under_rect_layout = [[
         sg.Button("Select_blanks", size=(42, 1), pad=(20, 10), key="SELECT_BLANKS_rect", button_color=("white", "navy")),
@@ -90,17 +88,16 @@ under_rect_layout = [[
     ]]
 
 layout = [
-    [sg.Button("Grid", size=(43, 2), button_color=("white", "navy")), sg.Button("Plaques", size=(43, 2), button_color=("white", "navy"))],
-    [sg.Column(grid_layout + under_grid_layout, key="-GRID-", pad=(15, 15), visible=False),
-     sg.Image(filename='', key='-CAMERA-', visible=False, size=(500, 350),pad=(60,10)),
-     sg.Column(rectangles_layout + under_rect_layout, key="-RECTANGLE_PAGE-", pad=(10, 15), visible=False)],
-    [sg.Button("Process Image", key="-PROCESS_IMAGE-", size=(42, 1), button_color=("white", "navy"), pad=(170,0),visible=False)]
+    [sg.Button("Grid", size=(52, 2), button_color=("white", "navy")), sg.Button("Plaques", size=(52, 2), button_color=("white", "navy"))],
+    [sg.Column(grid_layout + under_grid_layout, key="-GRID-", pad=(35, 10), visible=False),
+     sg.Image(filename='', key='-CAMERA-', visible=False, size=(500, 300),pad=(20,10)), sg.Button("Process Image", key="-PROCESS_IMAGE-", size=(42, 3), button_color=("white", "navy"), pad=(0,0),visible=False),
+     sg.Column(rectangles_layout + under_rect_layout, key="-RECTANGLE_PAGE-", pad=(10, 15), visible=False)]
     ]
 
 window = sg.Window(
     "Mobile LAB",
     layout,
-    size=(640, 480),
+    size=(750, 400),
     finalize=True
 )
 
@@ -197,7 +194,7 @@ while True:
             
         if os.path.exists(STATIC_IMAGE_PATH):
             image = cv2.imread(STATIC_IMAGE_PATH)
-            image_resized = cv2.resize(image, (500, 350))
+            image_resized = cv2.resize(image, (500, 300))
             imgbytes = cv2.imencode('.png', image_resized)[1].tobytes()
             window['-CAMERA-'].update(data=imgbytes)
         else:
@@ -213,7 +210,7 @@ while True:
             final_image, cell_data = get_stat_results(imageInputRGB, cell_data, grid_mask)
             json = get_json(cell_data)
             build_log(json,cell_data)
-            image_resized = cv2.resize(final_image, (500, 350))
+            image_resized = cv2.resize(final_image, (500, 300))
             imgbytes = cv2.imencode('.png', cv2.cvtColor(image_resized, cv2.COLOR_RGB2BGR))[1].tobytes()
             window['-CAMERA-'].update(data=imgbytes)
         else:

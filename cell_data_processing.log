@@ -1,9 +1,9 @@
-2024-12-03 11:37:04 - INFO - 
+2024-12-03 14:10:00 - INFO - 
 Filtered JSON Output: {
     "A1": {
         "state": null,
         "mean_green": 100.58119658119658,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "A2": {
@@ -69,17 +69,17 @@ Filtered JSON Output: {
     "A12": {
         "state": null,
         "mean_green": 111.2280701754386,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B1": {
         "state": null,
         "mean_green": 118.3265306122449,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B2": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 75.5919540229885,
         "result": 0,
         "comment": ""
@@ -93,7 +93,7 @@ Filtered JSON Output: {
     "B4": {
         "state": null,
         "mean_green": 143.84426229508196,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B5": {
@@ -123,7 +123,7 @@ Filtered JSON Output: {
     "B9": {
         "state": null,
         "mean_green": 147.82191780821918,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B10": {
@@ -141,13 +141,13 @@ Filtered JSON Output: {
     "B12": {
         "state": null,
         "mean_green": 115.725,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C1": {
         "state": null,
         "mean_green": 124.234375,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C2": {
@@ -165,13 +165,13 @@ Filtered JSON Output: {
     "C4": {
         "state": null,
         "mean_green": 155.47435897435898,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C5": {
         "state": null,
         "mean_green": 95.18018018018019,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C6": {
@@ -189,13 +189,13 @@ Filtered JSON Output: {
     "C8": {
         "state": null,
         "mean_green": 94.65454545454546,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C9": {
         "state": null,
         "mean_green": 148.10416666666666,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C10": {
@@ -213,17 +213,17 @@ Filtered JSON Output: {
     "C12": {
         "state": null,
         "mean_green": 120.05970149253731,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D1": {
         "state": null,
         "mean_green": 129.09821428571428,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D2": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 83.1203007518797,
         "result": 0,
         "comment": ""
@@ -235,15 +235,15 @@ Filtered JSON Output: {
         "comment": ""
     },
     "D4": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 152.97916666666666,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D5": {
         "state": null,
         "mean_green": 96.90090090090091,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D6": {
@@ -261,13 +261,13 @@ Filtered JSON Output: {
     "D8": {
         "state": null,
         "mean_green": 96.88392857142857,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D9": {
         "state": null,
         "mean_green": 162.26315789473685,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D10": {
@@ -285,13 +285,13 @@ Filtered JSON Output: {
     "D12": {
         "state": null,
         "mean_green": 123.21875,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E1": {
         "state": null,
         "mean_green": 127.11864406779661,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E2": {
@@ -309,13 +309,13 @@ Filtered JSON Output: {
     "E4": {
         "state": null,
         "mean_green": 166.40740740740742,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E5": {
         "state": null,
         "mean_green": 99.63716814159292,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E6": {
@@ -333,13 +333,13 @@ Filtered JSON Output: {
     "E8": {
         "state": null,
         "mean_green": 101.74025974025975,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E9": {
         "state": null,
         "mean_green": 139.60115606936415,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E10": {
@@ -357,7 +357,7 @@ Filtered JSON Output: {
     "E12": {
         "state": null,
         "mean_green": 131.33823529411765,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "F1": {
@@ -507,7 +507,7 @@ Filtered JSON Output: {
     "H1": {
         "state": null,
         "mean_green": 106.77142857142857,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "H2": {
@@ -573,16 +573,16 @@ Filtered JSON Output: {
     "H12": {
         "state": null,
         "mean_green": 107.81372549019608,
-        "result": 1,
+        "result": 0,
         "comment": ""
     }
 }
-2024-12-03 11:37:42 - INFO - 
+2024-12-03 14:13:56 - INFO - 
 Filtered JSON Output: {
     "A1": {
         "state": null,
         "mean_green": 100.58119658119658,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "A2": {
@@ -648,17 +648,17 @@ Filtered JSON Output: {
     "A12": {
         "state": null,
         "mean_green": 111.2280701754386,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B1": {
         "state": null,
         "mean_green": 118.3265306122449,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B2": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 75.5919540229885,
         "result": 0,
         "comment": ""
@@ -672,11 +672,11 @@ Filtered JSON Output: {
     "B4": {
         "state": null,
         "mean_green": 143.84426229508196,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B5": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 86.89781021897811,
         "result": 0,
         "comment": ""
@@ -702,7 +702,7 @@ Filtered JSON Output: {
     "B9": {
         "state": null,
         "mean_green": 147.82191780821918,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B10": {
@@ -720,13 +720,13 @@ Filtered JSON Output: {
     "B12": {
         "state": null,
         "mean_green": 115.725,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C1": {
         "state": null,
         "mean_green": 124.234375,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C2": {
@@ -744,11 +744,11 @@ Filtered JSON Output: {
     "C4": {
         "state": null,
         "mean_green": 155.47435897435898,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C5": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 95.18018018018019,
         "result": 0,
         "comment": ""
@@ -774,7 +774,7 @@ Filtered JSON Output: {
     "C9": {
         "state": null,
         "mean_green": 148.10416666666666,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C10": {
@@ -792,17 +792,17 @@ Filtered JSON Output: {
     "C12": {
         "state": null,
         "mean_green": 120.05970149253731,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D1": {
         "state": null,
         "mean_green": 129.09821428571428,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D2": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 83.1203007518797,
         "result": 0,
         "comment": ""
@@ -814,9 +814,9 @@ Filtered JSON Output: {
         "comment": ""
     },
     "D4": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 152.97916666666666,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D5": {
@@ -846,7 +846,7 @@ Filtered JSON Output: {
     "D9": {
         "state": null,
         "mean_green": 162.26315789473685,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D10": {
@@ -864,13 +864,13 @@ Filtered JSON Output: {
     "D12": {
         "state": null,
         "mean_green": 123.21875,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E1": {
         "state": null,
         "mean_green": 127.11864406779661,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E2": {
@@ -888,13 +888,13 @@ Filtered JSON Output: {
     "E4": {
         "state": null,
         "mean_green": 166.40740740740742,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E5": {
         "state": null,
         "mean_green": 99.63716814159292,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E6": {
@@ -912,13 +912,13 @@ Filtered JSON Output: {
     "E8": {
         "state": null,
         "mean_green": 101.74025974025975,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E9": {
         "state": null,
         "mean_green": 139.60115606936415,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E10": {
@@ -936,7 +936,7 @@ Filtered JSON Output: {
     "E12": {
         "state": null,
         "mean_green": 131.33823529411765,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "F1": {
@@ -1086,7 +1086,7 @@ Filtered JSON Output: {
     "H1": {
         "state": null,
         "mean_green": 106.77142857142857,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "H2": {
@@ -1152,11 +1152,11 @@ Filtered JSON Output: {
     "H12": {
         "state": null,
         "mean_green": 107.81372549019608,
-        "result": 1,
+        "result": 0,
         "comment": ""
     }
 }
-2024-12-03 11:37:53 - INFO - 
+2024-12-03 14:14:02 - INFO - 
 Filtered JSON Output: {
     "A1": {
         "state": null,
@@ -1227,17 +1227,17 @@ Filtered JSON Output: {
     "A12": {
         "state": null,
         "mean_green": 111.2280701754386,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B1": {
         "state": null,
         "mean_green": 118.3265306122449,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B2": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 75.5919540229885,
         "result": 0,
         "comment": ""
@@ -1251,11 +1251,11 @@ Filtered JSON Output: {
     "B4": {
         "state": null,
         "mean_green": 143.84426229508196,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B5": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 86.89781021897811,
         "result": 0,
         "comment": ""
@@ -1273,7 +1273,7 @@ Filtered JSON Output: {
         "comment": ""
     },
     "B8": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 87.15625,
         "result": 0,
         "comment": ""
@@ -1281,7 +1281,7 @@ Filtered JSON Output: {
     "B9": {
         "state": null,
         "mean_green": 147.82191780821918,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "B10": {
@@ -1299,13 +1299,13 @@ Filtered JSON Output: {
     "B12": {
         "state": null,
         "mean_green": 115.725,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C1": {
         "state": null,
         "mean_green": 124.234375,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C2": {
@@ -1323,11 +1323,11 @@ Filtered JSON Output: {
     "C4": {
         "state": null,
         "mean_green": 155.47435897435898,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C5": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 95.18018018018019,
         "result": 0,
         "comment": ""
@@ -1345,7 +1345,7 @@ Filtered JSON Output: {
         "comment": ""
     },
     "C8": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 94.65454545454546,
         "result": 0,
         "comment": ""
@@ -1353,7 +1353,7 @@ Filtered JSON Output: {
     "C9": {
         "state": null,
         "mean_green": 148.10416666666666,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "C10": {
@@ -1371,17 +1371,17 @@ Filtered JSON Output: {
     "C12": {
         "state": null,
         "mean_green": 120.05970149253731,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D1": {
         "state": null,
         "mean_green": 129.09821428571428,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D2": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 83.1203007518797,
         "result": 0,
         "comment": ""
@@ -1393,9 +1393,9 @@ Filtered JSON Output: {
         "comment": ""
     },
     "D4": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 152.97916666666666,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D5": {
@@ -1417,7 +1417,7 @@ Filtered JSON Output: {
         "comment": ""
     },
     "D8": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 96.88392857142857,
         "result": 0,
         "comment": ""
@@ -1425,7 +1425,7 @@ Filtered JSON Output: {
     "D9": {
         "state": null,
         "mean_green": 162.26315789473685,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "D10": {
@@ -1443,13 +1443,13 @@ Filtered JSON Output: {
     "D12": {
         "state": null,
         "mean_green": 123.21875,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E1": {
         "state": null,
         "mean_green": 127.11864406779661,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E2": {
@@ -1467,7 +1467,7 @@ Filtered JSON Output: {
     "E4": {
         "state": null,
         "mean_green": 166.40740740740742,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E5": {
@@ -1497,7 +1497,7 @@ Filtered JSON Output: {
     "E9": {
         "state": null,
         "mean_green": 139.60115606936415,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "E10": {
@@ -1515,7 +1515,7 @@ Filtered JSON Output: {
     "E12": {
         "state": null,
         "mean_green": 131.33823529411765,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "F1": {
@@ -1665,7 +1665,7 @@ Filtered JSON Output: {
     "H1": {
         "state": null,
         "mean_green": 106.77142857142857,
-        "result": 1,
+        "result": 0,
         "comment": ""
     },
     "H2": {
@@ -1731,11 +1731,11 @@ Filtered JSON Output: {
     "H12": {
         "state": null,
         "mean_green": 107.81372549019608,
-        "result": 1,
+        "result": 0,
         "comment": ""
     }
 }
-2024-12-03 11:44:31 - INFO - 
+2024-12-03 14:14:08 - INFO - 
 Filtered JSON Output: {
     "A1": {
         "state": null,
@@ -1816,7 +1816,7 @@ Filtered JSON Output: {
         "comment": ""
     },
     "B2": {
-        "state": "negative control",
+        "state": null,
         "mean_green": 75.5919540229885,
         "result": 0,
         "comment": ""
@@ -1836,7 +1836,7 @@ Filtered JSON Output: {
     "B5": {
         "state": null,
         "mean_green": 86.89781021897811,
-        "result": 0,
+        "result": 1,
         "comment": ""
     },
     "B6": {
@@ -1854,7 +1854,7 @@ Filtered JSON Output: {
     "B8": {
         "state": null,
         "mean_green": 87.15625,
-        "result": 0,
+        "result": 1,
         "comment": ""
     },
     "B9": {
@@ -1944,7 +1944,7 @@ Filtered JSON Output: {
     "C11": {
         "state": null,
         "mean_green": 85.36764705882354,
-        "result": 0,
+        "result": 1,
         "comment": ""
     },
     "C12": {
@@ -1960,7 +1960,7 @@ Filtered JSON Output: {
         "comment": ""
     },
     "D2": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 83.1203007518797,
         "result": 0,
         "comment": ""
@@ -2016,7 +2016,7 @@ Filtered JSON Output: {
     "D11": {
         "state": null,
         "mean_green": 84.81944444444444,
-        "result": 0,
+        "result": 1,
         "comment": ""
     },
     "D12": {
@@ -2032,7 +2032,7 @@ Filtered JSON Output: {
         "comment": ""
     },
     "E2": {
-        "state": null,
+        "state": "negative control",
         "mean_green": 82.83687943262412,
         "result": 0,
         "comment": ""
@@ -2071,6 +2071,585 @@ Filtered JSON Output: {
         "state": null,
         "mean_green": 101.74025974025975,
         "result": 1,
+        "comment": ""
+    },
+    "E9": {
+        "state": null,
+        "mean_green": 139.60115606936415,
+        "result": 1,
+        "comment": ""
+    },
+    "E10": {
+        "state": null,
+        "mean_green": 55.23268817204301,
+        "result": 0,
+        "comment": ""
+    },
+    "E11": {
+        "state": null,
+        "mean_green": 82.50602409638554,
+        "result": 0,
+        "comment": ""
+    },
+    "E12": {
+        "state": null,
+        "mean_green": 131.33823529411765,
+        "result": 1,
+        "comment": ""
+    },
+    "F1": {
+        "state": null,
+        "mean_green": 28.613824884792628,
+        "result": 0,
+        "comment": ""
+    },
+    "F2": {
+        "state": null,
+        "mean_green": 39.91446208112875,
+        "result": 0,
+        "comment": ""
+    },
+    "F3": {
+        "state": null,
+        "mean_green": 46.82994062765055,
+        "result": 0,
+        "comment": ""
+    },
+    "F4": {
+        "state": null,
+        "mean_green": 51.932906143987935,
+        "result": 0,
+        "comment": ""
+    },
+    "F5": {
+        "state": null,
+        "mean_green": 54.576940133037695,
+        "result": 0,
+        "comment": ""
+    },
+    "F6": {
+        "state": null,
+        "mean_green": 55.4884732492388,
+        "result": 0,
+        "comment": ""
+    },
+    "F7": {
+        "state": null,
+        "mean_green": 54.851063829787236,
+        "result": 0,
+        "comment": ""
+    },
+    "F8": {
+        "state": null,
+        "mean_green": 57.18174133558749,
+        "result": 0,
+        "comment": ""
+    },
+    "F9": {
+        "state": null,
+        "mean_green": 57.44914564686737,
+        "result": 0,
+        "comment": ""
+    },
+    "F10": {
+        "state": null,
+        "mean_green": 52.536166734777275,
+        "result": 0,
+        "comment": ""
+    },
+    "F11": {
+        "state": null,
+        "mean_green": 48.02171241294551,
+        "result": 0,
+        "comment": ""
+    },
+    "F12": {
+        "state": null,
+        "mean_green": 45.96688034188034,
+        "result": 0,
+        "comment": ""
+    },
+    "G1": {
+        "state": null,
+        "mean_green": 86.8,
+        "result": 1,
+        "comment": ""
+    },
+    "G2": {
+        "state": null,
+        "mean_green": 38.96826280623608,
+        "result": 0,
+        "comment": ""
+    },
+    "G3": {
+        "state": null,
+        "mean_green": 45.05185516316495,
+        "result": 0,
+        "comment": ""
+    },
+    "G4": {
+        "state": null,
+        "mean_green": 50.474029524330234,
+        "result": 0,
+        "comment": ""
+    },
+    "G5": {
+        "state": null,
+        "mean_green": 54.01416707376649,
+        "result": 0,
+        "comment": ""
+    },
+    "G6": {
+        "state": null,
+        "mean_green": 52.22012578616352,
+        "result": 0,
+        "comment": ""
+    },
+    "G7": {
+        "state": null,
+        "mean_green": 54.049977885891195,
+        "result": 0,
+        "comment": ""
+    },
+    "G8": {
+        "state": null,
+        "mean_green": 57.188528047237455,
+        "result": 0,
+        "comment": ""
+    },
+    "G9": {
+        "state": null,
+        "mean_green": 57.92848020434227,
+        "result": 0,
+        "comment": ""
+    },
+    "G10": {
+        "state": null,
+        "mean_green": 50.98433734939759,
+        "result": 0,
+        "comment": ""
+    },
+    "G11": {
+        "state": null,
+        "mean_green": 45.444595205789234,
+        "result": 0,
+        "comment": ""
+    },
+    "G12": {
+        "state": null,
+        "mean_green": 45.367552045944,
+        "result": 0,
+        "comment": ""
+    },
+    "H1": {
+        "state": null,
+        "mean_green": 106.77142857142857,
+        "result": 1,
+        "comment": ""
+    },
+    "H2": {
+        "state": null,
+        "mean_green": 63.79255319148936,
+        "result": 0,
+        "comment": ""
+    },
+    "H3": {
+        "state": null,
+        "mean_green": 41.00338753387534,
+        "result": 0,
+        "comment": ""
+    },
+    "H4": {
+        "state": null,
+        "mean_green": 46.055834378920956,
+        "result": 0,
+        "comment": ""
+    },
+    "H5": {
+        "state": null,
+        "mean_green": 53.14754098360656,
+        "result": 0,
+        "comment": ""
+    },
+    "H6": {
+        "state": null,
+        "mean_green": 51.959245283018866,
+        "result": 0,
+        "comment": ""
+    },
+    "H7": {
+        "state": null,
+        "mean_green": 53.06528189910979,
+        "result": 0,
+        "comment": ""
+    },
+    "H8": {
+        "state": null,
+        "mean_green": 55.93531468531469,
+        "result": 0,
+        "comment": ""
+    },
+    "H9": {
+        "state": null,
+        "mean_green": 49.5509461426492,
+        "result": 0,
+        "comment": ""
+    },
+    "H10": {
+        "state": null,
+        "mean_green": 45.053901850362024,
+        "result": 0,
+        "comment": ""
+    },
+    "H11": {
+        "state": null,
+        "mean_green": 42.26071679550246,
+        "result": 0,
+        "comment": ""
+    },
+    "H12": {
+        "state": null,
+        "mean_green": 107.81372549019608,
+        "result": 1,
+        "comment": ""
+    }
+}
+2024-12-03 14:14:15 - INFO - 
+Filtered JSON Output: {
+    "A1": {
+        "state": null,
+        "mean_green": 100.58119658119658,
+        "result": 0,
+        "comment": ""
+    },
+    "A2": {
+        "state": null,
+        "mean_green": 37.15580568720379,
+        "result": 0,
+        "comment": ""
+    },
+    "A3": {
+        "state": null,
+        "mean_green": 37.994085532302094,
+        "result": 0,
+        "comment": ""
+    },
+    "A4": {
+        "state": null,
+        "mean_green": 44.21720116618076,
+        "result": 0,
+        "comment": ""
+    },
+    "A5": {
+        "state": null,
+        "mean_green": 48.95640176600441,
+        "result": 0,
+        "comment": ""
+    },
+    "A6": {
+        "state": null,
+        "mean_green": 46.70692883895131,
+        "result": 0,
+        "comment": ""
+    },
+    "A7": {
+        "state": null,
+        "mean_green": 47.77318181818182,
+        "result": 0,
+        "comment": ""
+    },
+    "A8": {
+        "state": null,
+        "mean_green": 55.053763440860216,
+        "result": 0,
+        "comment": ""
+    },
+    "A9": {
+        "state": null,
+        "mean_green": 52.24575738529227,
+        "result": 0,
+        "comment": ""
+    },
+    "A10": {
+        "state": null,
+        "mean_green": 45.980317113176596,
+        "result": 0,
+        "comment": ""
+    },
+    "A11": {
+        "state": null,
+        "mean_green": 46.78560168155544,
+        "result": 0,
+        "comment": ""
+    },
+    "A12": {
+        "state": null,
+        "mean_green": 111.2280701754386,
+        "result": 1,
+        "comment": ""
+    },
+    "B1": {
+        "state": null,
+        "mean_green": 118.3265306122449,
+        "result": 1,
+        "comment": ""
+    },
+    "B2": {
+        "state": null,
+        "mean_green": 75.5919540229885,
+        "result": 0,
+        "comment": ""
+    },
+    "B3": {
+        "state": null,
+        "mean_green": 45.51954545454546,
+        "result": 0,
+        "comment": ""
+    },
+    "B4": {
+        "state": null,
+        "mean_green": 143.84426229508196,
+        "result": 1,
+        "comment": ""
+    },
+    "B5": {
+        "state": null,
+        "mean_green": 86.89781021897811,
+        "result": 0,
+        "comment": ""
+    },
+    "B6": {
+        "state": null,
+        "mean_green": 53.65669581224114,
+        "result": 0,
+        "comment": ""
+    },
+    "B7": {
+        "state": null,
+        "mean_green": 55.48949485918641,
+        "result": 0,
+        "comment": ""
+    },
+    "B8": {
+        "state": null,
+        "mean_green": 87.15625,
+        "result": 0,
+        "comment": ""
+    },
+    "B9": {
+        "state": null,
+        "mean_green": 147.82191780821918,
+        "result": 1,
+        "comment": ""
+    },
+    "B10": {
+        "state": null,
+        "mean_green": 54.17845828933474,
+        "result": 0,
+        "comment": ""
+    },
+    "B11": {
+        "state": null,
+        "mean_green": 80.42105263157895,
+        "result": 0,
+        "comment": ""
+    },
+    "B12": {
+        "state": null,
+        "mean_green": 115.725,
+        "result": 1,
+        "comment": ""
+    },
+    "C1": {
+        "state": null,
+        "mean_green": 124.234375,
+        "result": 1,
+        "comment": ""
+    },
+    "C2": {
+        "state": "negative control",
+        "mean_green": 84.07272727272728,
+        "result": 0,
+        "comment": ""
+    },
+    "C3": {
+        "state": null,
+        "mean_green": 49.312599681020735,
+        "result": 0,
+        "comment": ""
+    },
+    "C4": {
+        "state": null,
+        "mean_green": 155.47435897435898,
+        "result": 1,
+        "comment": ""
+    },
+    "C5": {
+        "state": "negative control",
+        "mean_green": 95.18018018018019,
+        "result": 0,
+        "comment": ""
+    },
+    "C6": {
+        "state": null,
+        "mean_green": 58.53842992190711,
+        "result": 0,
+        "comment": ""
+    },
+    "C7": {
+        "state": null,
+        "mean_green": 59.53823152498932,
+        "result": 0,
+        "comment": ""
+    },
+    "C8": {
+        "state": null,
+        "mean_green": 94.65454545454546,
+        "result": 0,
+        "comment": ""
+    },
+    "C9": {
+        "state": null,
+        "mean_green": 148.10416666666666,
+        "result": 1,
+        "comment": ""
+    },
+    "C10": {
+        "state": null,
+        "mean_green": 54.186673199412056,
+        "result": 0,
+        "comment": ""
+    },
+    "C11": {
+        "state": null,
+        "mean_green": 85.36764705882354,
+        "result": 0,
+        "comment": ""
+    },
+    "C12": {
+        "state": null,
+        "mean_green": 120.05970149253731,
+        "result": 1,
+        "comment": ""
+    },
+    "D1": {
+        "state": null,
+        "mean_green": 129.09821428571428,
+        "result": 1,
+        "comment": ""
+    },
+    "D2": {
+        "state": "negative control",
+        "mean_green": 83.1203007518797,
+        "result": 0,
+        "comment": ""
+    },
+    "D3": {
+        "state": null,
+        "mean_green": 50.29892711801702,
+        "result": 0,
+        "comment": ""
+    },
+    "D4": {
+        "state": null,
+        "mean_green": 152.97916666666666,
+        "result": 1,
+        "comment": ""
+    },
+    "D5": {
+        "state": "negative control",
+        "mean_green": 96.90090090090091,
+        "result": 0,
+        "comment": ""
+    },
+    "D6": {
+        "state": null,
+        "mean_green": 59.73097826086956,
+        "result": 0,
+        "comment": ""
+    },
+    "D7": {
+        "state": null,
+        "mean_green": 61.240015509887556,
+        "result": 0,
+        "comment": ""
+    },
+    "D8": {
+        "state": null,
+        "mean_green": 96.88392857142857,
+        "result": 0,
+        "comment": ""
+    },
+    "D9": {
+        "state": null,
+        "mean_green": 162.26315789473685,
+        "result": 1,
+        "comment": ""
+    },
+    "D10": {
+        "state": null,
+        "mean_green": 55.2648401826484,
+        "result": 0,
+        "comment": ""
+    },
+    "D11": {
+        "state": null,
+        "mean_green": 84.81944444444444,
+        "result": 0,
+        "comment": ""
+    },
+    "D12": {
+        "state": null,
+        "mean_green": 123.21875,
+        "result": 1,
+        "comment": ""
+    },
+    "E1": {
+        "state": null,
+        "mean_green": 127.11864406779661,
+        "result": 1,
+        "comment": ""
+    },
+    "E2": {
+        "state": "negative control",
+        "mean_green": 82.83687943262412,
+        "result": 0,
+        "comment": ""
+    },
+    "E3": {
+        "state": null,
+        "mean_green": 47.490694345025055,
+        "result": 0,
+        "comment": ""
+    },
+    "E4": {
+        "state": null,
+        "mean_green": 166.40740740740742,
+        "result": 1,
+        "comment": ""
+    },
+    "E5": {
+        "state": "negative control",
+        "mean_green": 99.63716814159292,
+        "result": 0,
+        "comment": ""
+    },
+    "E6": {
+        "state": null,
+        "mean_green": 58.71315898713159,
+        "result": 0,
+        "comment": ""
+    },
+    "E7": {
+        "state": null,
+        "mean_green": 59.75689935064935,
+        "result": 0,
+        "comment": ""
+    },
+    "E8": {
+        "state": null,
+        "mean_green": 101.74025974025975,
+        "result": 0,
         "comment": ""
     },
     "E9": {
